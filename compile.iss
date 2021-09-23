@@ -17,7 +17,7 @@ DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=commandline
-OutputBaseFilename=mysetup
+OutputBaseFilename=flappysetup
 SetupIconFile=C:\Users\anshr\Documents\flappy\icon.ico
 Compression=lzma
 SolidCompression=yes
