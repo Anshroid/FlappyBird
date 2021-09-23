@@ -18,7 +18,7 @@ DisableProgramGroupPage=yes
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=commandline
 OutputBaseFilename=flappysetup
-SetupIconFile=C:\Users\anshr\Documents\flappy\icon.ico
+SetupIconFile=./icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -30,8 +30,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\anshr\Documents\flappy\build\exe.win-amd64-3.8\FlappyBird.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\anshr\Documents\flappy\build\exe.win-amd64-3.8\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "./build/exe.win-amd64-3.8/FlappyBird.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "./build/exe.win-amd64-3.8/*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
